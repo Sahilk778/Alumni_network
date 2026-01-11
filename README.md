@@ -56,7 +56,8 @@ alumniMNS/
 
 
 ### Add Job Page
-![Add Job](screenshots/add_job.png)
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/2a9ff629-21d9-4d53-baac-6d9c98cee098" />
+
 
 ---
 
