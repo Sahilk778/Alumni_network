@@ -44,13 +44,16 @@ alumniMNS/
 <img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/11d70c1c-baf4-4b5c-9b67-8c9d16624566" />
 
 ### Registration Page
-![Registration Page](screenshots/register.png)
+<img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/f9584792-2f74-48d4-883a-3b53f14c76a3" />
+
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+<img width="1920" height="1080" alt="ssa" src="https://github.com/user-attachments/assets/f2e24484-8908-486a-89f9-67a5eb6837e0" />
+
 
 ### Job Listings
-![Job Listings](screenshots/jobs.png)
+<img width="1920" height="1080" alt="ss" src="https://github.com/user-attachments/assets/330caf0f-ae9a-4724-96bb-6c7d4874d844" />
+
 
 ### Add Job Page
 ![Add Job](screenshots/add_job.png)
