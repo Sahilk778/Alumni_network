@@ -41,7 +41,7 @@ alumniMNS/
 ## 🖼️ Project Screenshots
 
 ### Login Page
-![Login Page](screenshots/login.png)
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/11d70c1c-baf4-4b5c-9b67-8c9d16624566" />
 
 ### Registration Page
 ![Registration Page](screenshots/register.png)
