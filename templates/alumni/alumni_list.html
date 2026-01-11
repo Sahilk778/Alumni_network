@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Alumni Directory</h3>
+<table class="table table-striped">
+<tr>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Year</th>
+    <th>Company</th>
+</tr>
+{% for a in alumni %}
+<tr>
+    <td>{{ a.user.first_name }}</td>
+    <td>{{ a.department }}</td>
+    <td>{{ a.graduation_year }}</td>
+    <td>{{ a.company }}</td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

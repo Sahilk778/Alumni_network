@@ -1,0 +1,61 @@
+/* HERO SECTION */
+.hero {
+    height: 90vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("../images/network.jpg") center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+/* FEATURES */
+.features {
+    margin-bottom: 60px;
+}
+
+.feature-card {
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+.feature-card img {
+    border-radius: 15px;
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.feature-card h4 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.feature-card p {
+    color: #555;
+}
+
+/* HOVER EFFECT */
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    border-radius: 15px;
+}

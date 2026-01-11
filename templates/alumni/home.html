@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'alumni/css/home.css' %}">
+{% endblock %}
+{% block content %}
+<div class="text-center mt-5">
+    <h1>Welcome to the Alumni Management & Networking System</h1>
+    <p class="lead">Alumni are the lifelong ambassadors of an institution, carrying its values,
+      knowledge, and legacy into the world. A strong alumni network bridges the gap
+      between past and present students by fostering mentorship, collaboration,
+      and professional growth. Through meaningful connections, alumni can share
+      experiences, create opportunities, and support each other while contributing
+      to the continuous development of the institution.</p>
+    <a href="{% url 'login' %}" class="btn btn-primary btn-lg">Login</a>
+    <a href="{% url 'register' %}" class="btn btn-success btn-lg">Register</a>
+</div>
+
+<!-- FEATURES -->
+<section class="container features mt-5">
+  <div class="row text-center">
+
+    <div class="col-md-4 feature-card">
+      <img src="{% static 'alumni/images/cover.jpg' %}" class="img-fluid">
+      <h4>Connect Alumni</h4>
+      <p>Find and connect with alumni from your batch.</p>
+    </div>
+
+    <div class="col-md-4 feature-card">
+      <img src="{% static 'alumni/images/ne.jpg' %}" class="img-fluid">
+      <h4>Build Network</h4>
+      <p>Create meaningful professional connections.</p>
+    </div>
+
+    <div class="col-md-4 feature-card">
+      <img src="{% static 'alumni/images/jo.jpg' %}" class="img-fluid">
+      <h4>Career Growth</h4>
+      <p>Explore job opportunities shared by alumni.</p>
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

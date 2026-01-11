@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Job Opportunities</h3>
+
+<a href="{% url 'add_job' %}" class="btn btn-success mb-3">Post Job</a>
+
+<table class="table table-bordered">
+  <tr>
+    <th>Title</th>
+    <th>Company</th>
+    <th>Posted By</th>
+    <th>Date</th>
+  </tr>
+
+  {% for job in jobs %}
+  <tr>
+    <td>{{ job.title }}</td>
+    <td>{{ job.company }}</td>
+    <td>{{ job.posted_by.username }}</td>
+    <td>{{ job.posted_on|date:"d M Y" }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
